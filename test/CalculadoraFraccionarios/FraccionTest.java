@@ -35,7 +35,7 @@ class FraccionTest {
 		Fraccion f,g, h;
 		f=new Fraccion(3,4);
 		g=new Fraccion(5,6);
-		h=new Fraccion(9,11);
+		h=new Fraccion(9,10);
 		
 		assertEquals(h,f.dividir(g));
 	}
